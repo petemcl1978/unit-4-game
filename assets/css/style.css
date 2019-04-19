@@ -1,13 +1,53 @@
 h1 {text-align: center;
     color: rgb(29, 207, 29);
     }
-.jumbotron-billboard .img{
-    margin-bottom; 0px;
-    opacity: 0.3;
-    color: #ffff;
-    background: #000000
+
     
+
+.jewel {
+    width: 90px;
+    height: 90px;
+    background: #1eff00;
+    margin: -80;
+    padding: 0;
+
+    /* rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    /* rotate origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%
+    margin: 40px 0 10px 150px;
+
 }
 
+    #red{
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #df534f;
 
+    }  
+    #blue{
+        color: #fff;
+        background-color: blue;
+        border-color: blue;
+    }
+    #green{
+        color: #fff;
+        background-color: rgb(65, 221, 65);
+        border-color: rgb(65, 221, 65);
+
+    }
+    #purple{
+        color: #fff;
+        background-color: purple;
+        border-color: purple;
+    }
 
