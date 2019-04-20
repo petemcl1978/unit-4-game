@@ -6,7 +6,7 @@ targetScore.innerHTML = getRandomValue(10, 4);
 
 function addToScore(val) {
     var numberToAdd = parseInt(val);
-    var currentScore = paresInt(yourScore.innerHTML);
+    var currentScore = parseInt(yourScore.innerHTML);
     yourScore.innerHTML =numberToAdd + currentScore;
 
 }
@@ -36,19 +36,19 @@ red.addEventListener('click',function(){
 //.innerHTML returns a string, NaN
 
 blue.addEventListener('click', function(){
-    //this refers to blue
+    //this refers to red 
     addToScore(this.value);
     checkPlayerScore();
 })
 
 green.addEventListener('click', function(){
-    //this refers to green
+    //this refers to red
     addToScore(this.value);
     checkPlayerScore();
 })
 
 purple.addEventListener('click', function(){
-    //this refuers to purple
+    //this refuers to red
     addToScore(this.value);
     checkPlayerScore();
 })
