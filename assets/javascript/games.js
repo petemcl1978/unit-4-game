@@ -22,7 +22,7 @@ var green = document.getElementById("green");
 //console.log(red.value);
 
 var purple = document.getElementById("purple");
-//console.log(purple.value)
+//console.log(purple.value);
 
 // add an event listener to elements
 red.addEventListener('click',function(){
@@ -48,7 +48,7 @@ green.addEventListener('click', function(){
 })
 
 purple.addEventListener('click', function(){
-    //this refuers to red
+    //this refers to red
     addToScore(this.value);
     checkPlayerScore();
 })
