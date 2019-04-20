@@ -12,7 +12,7 @@ function addToScore(val) {
 }
 
 var red = document.getElementById("red");
-//red.setAttribute("value", "5");
+//red.setAttribute("value", "2");
 //console.log(red.value);
 
 var blue = document.getElementById("blue");
@@ -22,6 +22,7 @@ var green = document.getElementById("green");
 //console.log(red.value);
 
 var purple = document.getElementById("purple");
+//purple.setAttribute("value","4")
 //console.log(purple.value);
 
 // add an event listener to elements
@@ -31,7 +32,7 @@ red.addEventListener('click',function(){
     checkPlayerScore();
 });
 //parseInt (42.01) => 42
-//alert(parseInt('james'));//NaN (not a number)
+
 //cafe Del Mar ChillWave 2 :)
 //.innerHTML returns a string, NaN
 
